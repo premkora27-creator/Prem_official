@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | My Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ff6a00, #ee0979);
+      min-height: 100vh;
+      color: #fff;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .about-section {
+      max-width: 900px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .about-section h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #ffd700;
+      text-align: center;
+    }
+
+    .about-section p {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .about-section i {
+      color: #ffd700;
+      margin-right: 8px;
+    }
+
+    .features {
+      margin-top: 25px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .feature-box {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .feature-box:hover {
+      background: #ffd700;
+      color: #333;
+      transform: translateY(-5px);
+    }
+
+    .feature-box i {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      padding: 15px;
+      background: rgba(0,0,0,0.3);
+      border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    footer span {
+      color: #ffd700;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <!-- Back arrow button -->
+<a href="index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i></a>
+
+<style>
+  .back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 22px;
+    color: #fff;
+    background: rgba(255,255,255,0.15);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .back-btn:hover {
+    background: #ffd700;
+    color: #333;
+  }
+</style>
+
+  <header>About Us</header>
+
+  <section class="about-section">
+    <h2>Welcome to Our Gaming World 🎮</h2>
+    <p>
+      This website is dedicated to <b>gaming enthusiasts</b> who love to explore, play, and enjoy 
+      simple yet fun games. We focus on delivering an interactive and colorful platform 
+      that makes gaming accessible for everyone.  
+    </p>
+    <p>
+      Whether you are a casual player or a passionate gamer, our goal is to create a 
+      <i>space filled with excitement, challenges, and fun</i>. Here, you’ll discover 
+      simple games, gaming tips, and engaging content that keeps the spirit of 
+      gaming alive.  
+    </p>
+    <p>
+      🎯 Our opinion: Gaming is not just entertainment — it’s creativity, skill, and a way to connect 
+      with people worldwide. We believe in building a community where gamers can share, play, and grow together.
+    </p>
+
+    <div class="features">
+      <div class="feature-box">
+        <i class="fa-solid fa-gamepad"></i>
+        <h3>Fun Games</h3>
+        <p>Play simple and exciting games directly from our platform.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fa-solid fa-users"></i>
+        <h3>Community</h3>
+        <p>Connect with other gamers and share your experience.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fa-solid fa-star"></i>
+        <h3>Professional Design</h3>
+        <p>A modern, colorful, and smooth design for a great experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 | Designed & Developed by <span>PREM KORA</span>
+  </footer>
+
+</body>
+</html>
