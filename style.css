@@ -155,3 +155,7 @@ body {
     text-align: center;
     padding: 20px;
 }
+.logo img {
+    height: 130px;
+    width: auto;
+}
