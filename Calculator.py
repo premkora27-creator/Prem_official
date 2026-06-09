@@ -29,12 +29,9 @@ win.title('Calculator')
 win.geometry('450x600')
 win.config(bg='white')
 
-oic = PhotoImage(file='logo.png')
-win.iconphoto(True,oic)
-
 entry = Entry(win,font=('',30),bg='light gray',fg='black')
 
-label1= Label(win, text='CALCULATOR', font=('Bodoni MT Black', 30, 'bold'), fg= 'Black', bg='white', image=oic,compound='left')
+label1= Label(win, text='CALCULATOR', font=('Bodoni MT Black', 30, 'bold'), fg= 'Black', bg='white')
 label2= Label(win, text= 0, font=('Arial',40,'bold'),fg='#00ff00',bg='white')
 
 buttonadd = Button(win,text='+',font=('Arial', 20, 'bold'),fg='black',bg='gray',
